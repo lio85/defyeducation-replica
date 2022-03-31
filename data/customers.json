@@ -1,0 +1,16 @@
+[
+    {
+     "id": 1,
+     "name": "Delfina Pipan",
+     "profession": "Digital Transformation Analyst at NewCombin",
+     "testimony": "El curso fue una experiencia muy valiosa, interesante y sumamente didáctica. Al no requerir conocimientos previos sobre el tema, es una gran oportunidad y punto de partida para entrar en el mundo Cripto.",
+     "profileImage": "https://global-uploads.webflow.com/61942494d9efcb7a66aac5ef/6201ee0b5b98717073f240ac_delfina_pipan-p-500.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Julian Gurfinkiel",
+        "profession": "Co-founder & CMO en Turismocity",
+        "testimony": "Lo mejor del curso es la forma en que aborda todos los temas de una forma sencilla y clara de entender para gente que no está muy metida en el tema. Se alcanza un nivel de profundidad que muy probablemente sin este curso no hubiese escuchado o entendido.",
+        "profileImage": "https://global-uploads.webflow.com/61942494d9efcb7a66aac5ef/6201f03d10fc04896d3b3840_julian_gurfinkiel.jpeg"
+       }
+]

@@ -1,0 +1,782 @@
+@font-face {
+    font-family: 'Cera Pro Thin';
+    src: url(../assets/fonts/Cera\ Pro\ Thin.otf);
+}
+
+@font-face {
+    font-family: 'Cera pro Regular';
+    src: url(../assets/fonts/Cera\ Pro\ Regular.otf);
+}
+
+@font-face {
+    font-family: 'Cera Pro Strong';
+    src: url(../assets/fonts/Cera\ Pro\ Bold.otf);
+}
+
+ @font-face {
+    font-family: 'Cera Pro Black';
+    src: url(../assets/fonts/Cera\ Pro\ Black.otf);
+ }
+
+h1 {
+    font-family: "Cera Pro Strong", sans-serif;
+}
+
+p {
+    font-family: "Cera Pro Thin", sans-serif;
+}
+
+.main {
+    padding: 50px 30px 0;
+}
+
+.main__main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.first-container,
+.second-container {
+    line-height: 1.5;
+}
+
+/* GENERIC ELEMENTS */
+
+.btn {
+    width: 100%;
+    padding: 10px 5px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    max-width: 420px;
+    border-radius: 5px;
+    font-family: "Cera Pro Strong", sans-serif;
+    text-align: center;
+    color: #fff;
+    transition: all 500ms;
+}
+
+.asks {
+    margin-bottom: 50px;
+    font-family: "Cera Pro Strong", sans-serif;
+    font-size: 30px;
+    color: #33105b;
+}
+
+.btn-pink {
+    background-color: #ea1fbf;
+}
+
+.btn-pink:hover {
+    background-color: #BA0995;
+}
+
+.btn-violet {
+    background-color: #6b01de;
+}
+
+.btn-violet:hover {
+    background-color: #4F089B;;
+}
+
+/* MAIN -> FIRST-CONTAINER */
+
+.first-container {
+   margin-bottom: 20px;
+   text-align: left;
+}
+
+.first-container__btn--violet {
+    background-color: #6b01de;
+}
+
+
+.first-container__btn--pink {
+    background-color: #ea1fbf;
+}
+
+.first-container__btn--pink:hover {
+    background-color: #C4169F;
+}
+
+.first-container__btn--violet:hover {
+    background-color: #4F089B;
+}
+
+.first-container__img {
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  MAIN -> SECOND-CONTAINER */
+
+.second-container {
+    margin-bottom: 80px;
+    text-align: left;
+}
+
+.main__subheading {
+    margin-bottom: 0;
+    font-family: "Cera Pro Strong";
+    color: #ea1fbf;
+}
+
+.main__heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Cera Pro Black";
+    color: #410082;
+}
+
+.second-container h5,
+.second-container h5 a,
+.second-container strong{
+    font-family: Cera Pro Strong;
+}
+
+.second-container h5 {
+    margin-top: 0;
+}
+
+.card--next-courses {
+    /* padding: 20px; */
+    /* padding-top: 1px; */
+    padding: 1px 20px 0 20px;
+    border-radius: 15px;
+    font-family: "Cera Pro Strong", sans-serif;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 #ddd;
+}
+
+.card--next-courses span {
+    color: #ea1fbf;
+}
+
+.card__text-container {
+    margin-bottom: 30px;
+}
+
+.card__text p {
+    margin-bottom: 5px;
+    font-family: "Cera Pro Strong", sans-serif;
+}
+
+/* .card__text span:after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+} */
+
+
+.show-btn {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.show-btn__arrow {
+    display: inline-block;
+    margin-left: 5px;
+    transform: rotate(90deg);
+    transition: all 1s;
+}
+
+.show-btn--rotate {
+    transform: rotate(270deg);
+}
+
+.hidden-content {
+    height: 0px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.flags-row {
+    margin-top: 5px;
+}
+
+.flags-row img {
+    display: inline;
+    width: 30px;
+    height: 21px;
+    margin-right: 10px;    
+}
+
+.flags-row div {
+    display: inline;
+}
+
+.hidden-content--show {
+    height: 150px;  
+    padding-top: 20px;
+}
+
+.hidden-content__main-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hidden-content__main-content--show {
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+/* slider */
+
+.slider-box {
+    position: relative;
+    height: 660px;
+    margin-bottom: 40px;
+}
+
+
+.slider {
+    height: 100%;
+    padding-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 #ccc;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    width: 1000%;
+    margin-left: -100%;
+}
+
+.customer__container {
+    width: 100%;
+    padding: 0 50px;
+}
+
+.customer__image {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.slider__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 1.55;
+    cursor: pointer;
+    background-color: #6b01de;
+    color: #fff;
+}
+
+.slider__btn--left {
+    left: -25px;
+}
+
+.slider__btn--right {
+    right: -25px;
+}
+
+.btn-show-course {
+    width: 80%;
+    max-width: 250px;
+    margin-left: auto;
+}
+
+
+/* FAQs */
+
+.FAQs__container {
+    margin-bottom: 80px;
+}
+
+.FAQs__card {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 16px 0 #ccc;
+    cursor: pointer;
+}
+
+.FAQs__card:hover {
+    outline: 2px solid #6b01de;
+    transition: all 70ms;
+}
+
+.FAQs__question {
+    font-family: "Cera Pro Strong", sans-serif;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.FAQs__btn {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: 30px;
+    line-height: 1.55;
+    text-align: center;
+    background-color: #fff;
+    color: #6b01de;
+    box-shadow: 0 5px 16px 0 rgb(8 15 52 / 6%);
+    transition: all .5s;
+}
+/*  */
+.FAQs__answer-container {
+    display: inline;
+    height: 0;
+    transition: all 500ms;
+}
+
+.FAQs__answer {
+    display: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Cera Pro Normal", sans-serif;
+}
+
+.FAQs__btn--click {
+    margin-bottom: 20px;
+    transform: rotate(90deg);
+    background-color:#6b01de;
+    color: #fff
+}
+
+.FAQs__answer--show {
+    display: block;
+    margin-top: 20px;
+}
+
+.staff-member {
+    position: relative;
+    height: 410px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 16px 0 #ccc;
+    overflow: hidden;
+}
+
+.staff-member__stripe {
+    height: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, #410082, #ea1fbf);
+}
+
+.staff-member__information {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.staff-member__img {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.staff-member__name {
+    margin-bottom: 10px;
+}
+
+.staff-member__role {
+    margin-top: 0;
+}
+
+.staff-member__media-link i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    color: #aba5aa;
+    opacity: .5;
+}
+
+
+.staff-member__media-link i:hover {
+    color: #000;
+}
+
+.banner-container {
+    padding: 20px;
+    margin: 40px 0;
+    margin-bottom: 100px;
+    background-color: #410082;
+    color: #fff;
+}
+
+.banner {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner p {
+    font-family: "Cera Pro Strong", sans-serif;
+    font-size: 30px;
+}
+
+.banner a {
+    background-color: #ea1fbf;
+}
+
+.form-container {
+    max-width: 1200px;
+    padding: 30px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 0 5px 16px 0 #ccc;
+}
+
+.form-container h4 {
+    margin: 0;
+    font-family: "Cera Pro Strong", sans-serif;
+    font-size: 35px;
+
+}
+
+.form-container p {
+    margin-bottom: 50px;
+    font-family: 'Cera pro Thin';
+    font-size: 18px;
+}
+
+.form-container span {
+    color: #00b04f;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Cera Pro Strong", sans-serif;
+}
+
+.form input,
+.form select,
+.form textarea {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.form textarea {
+    height: auto;
+}
+
+.form input.form__submit {
+    width: 140px; 
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer {
+    padding: 30px 40px;
+    background-image: linear-gradient(#6b01de 70%, #410082);
+}
+
+.footer p {
+    color: #fff
+}
+
+.footer__text {
+    margin-bottom: 30px;
+}
+
+.footer__copyright {
+    margin-bottom: 0;
+    font-family: 'Cera Pro Regular';
+    text-align: left;
+}
+
+.footer .header__social-media-links {
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.footer .header__logo {
+    width: 140px;
+    margin-bottom: 40px;
+}
+
+.wp-float-icon-container {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 50%;
+    background-color: #25d366;
+    transition: all .5s;
+}
+
+.wp-float-icon-container::before {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00b94a;
+}
+
+.wp-float-icon-container:hover {
+    background-color: #00b94a;
+}
+
+.wp-float-icon {
+    font-size: 30px;
+    color: #fff;
+}
+
+@media (min-width: 480px) {
+    .slider-box {
+        height: 500px;
+    }
+
+    .FAQs__card {
+        text-align: left;
+    }
+    
+    .FAQs__flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .FAQs__question {
+        width: 75%;
+        margin-bottom: 0;
+    }
+
+    .FAQs__btn {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        font-size: 25px;
+        line-height: 1.25;
+    }
+
+    .FAQs__answer {
+        width: 90%;
+    }
+
+    /* staff section */
+
+    .staff-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 4% ;
+    }
+
+    .banner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .banner p,
+    .banner a {
+        width: 45%;
+    }
+
+    .banner a {
+        height: 40px;   
+    }
+
+    .footer .header__social-media-links {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer .header__social-media-link i {
+        position: static;
+        font-size: 25px;
+    }
+
+    .footer__copyright {
+        text-align: center;
+    }
+
+    .footer .header__logo {
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wp-float-icon-container {
+        width: 100px;
+        height: 100px;
+        padding-top: 35px;
+    }
+    
+    .wp-float-icon-container::before {
+        top: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .first-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .first-container__text {
+        width: 65%;
+    }
+
+    .img-container {
+        width: 30%;
+    }
+
+    .first-container__img {
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .second-container {
+        padding: 50px 20px;
+        border-radius: 15px;
+        background-color: #fafafa;
+        box-shadow: 0 5px 16px 0 #ccc;
+    }
+
+    .card--next-courses {
+        text-align: center;
+    }
+
+    .card__text-container {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 628px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card__btn {
+        margin-left: auto;
+    }
+
+    .flags-row {
+        text-align: left;
+    }
+
+    .FAQs__btn {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        line-height: 1.55;
+    }
+
+    .form {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .main {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .first-container {
+        margin-bottom: 50px;
+    }
+
+    .first-container__btn-container {
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    .first-container__btn {
+        max-width: 220px;
+        margin: 0;
+    }
+
+    .first-container__btn--violet {
+        margin-right: 10px;
+    }
+
+    /* ------------------------ */
+
+    .second-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .second-container {
+        padding: 50px 20px;
+        border-radius: 15px;
+        background-color: #fafafa;
+        box-shadow: 0 5px 16px 0 #ccc;
+    }
+
+    .second-container__text {
+        width: 70%;
+        padding: 5px;
+        padding-right: 50px;
+    }
+
+    .main__subheading {
+        margin-top: 0;
+    }
+
+    .card--next-courses {
+        width: 30%;
+        /* height: 325px; */
+        text-align: left;
+
+    }
+
+    .card__text-container {
+        display: block;
+
+        max-width: 628px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
